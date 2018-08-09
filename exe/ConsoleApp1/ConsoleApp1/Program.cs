@@ -15,7 +15,7 @@ namespace ConsoleApp1
       {
         sMsg = args[0];
       }
-      Console.WriteLine(sMsg);
+      Console.WriteLine("User said: " + sMsg);
       Console.ReadLine();
     }
   }
