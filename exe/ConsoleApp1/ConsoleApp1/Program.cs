@@ -10,7 +10,13 @@ namespace ConsoleApp1
   {
     static void Main(string[] args)
     {
-      Console.WriteLine("Hello World!");
+      string sMsg = "Hello World!";
+      if (args.Length > 0)
+      {
+        sMsg = args[0];
+      }
+      Console.WriteLine(sMsg);
+      Console.ReadLine();
     }
   }
 }
