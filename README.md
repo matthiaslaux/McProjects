@@ -1,2 +1,2 @@
 # McProjects
-McProjects halt
+McProjects halt - die allererste Basis für alles
